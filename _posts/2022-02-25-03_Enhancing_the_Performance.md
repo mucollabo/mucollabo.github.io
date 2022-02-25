@@ -1,6 +1,6 @@
 ---
 classes: wide
-title: "Enhancing the Performance"
+title: "[GAN] Enhancing the Performance"
 ---
 
 ```python
