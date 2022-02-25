@@ -1,5 +1,5 @@
 ---
-layout: post
+classes: wide
 title: "Enhancing the Performance"
 ---
 
