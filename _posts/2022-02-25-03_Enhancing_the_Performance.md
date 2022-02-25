@@ -138,7 +138,7 @@ mnist_dataset.plot_image(9)
 ```
 
 
-![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_6_0.png?raw=true)
+![png](../assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_6_0.png)
 
 
 
