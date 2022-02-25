@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:your.mucollabo@gmail.com"
+      url: "mailto:mucollabo@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
        url: "https://mucollabo.github.io"
