@@ -1,9 +1,10 @@
 ---
 layout: single
-title: "jupyternoteboo share"
+title: "Enhancing the Performance"
 ---
 
 ```python
+# GAN 03 Enhancing the Performance
 from google.colab import drive
 drive.mount('./mount')
 ```
@@ -137,7 +138,7 @@ mnist_dataset.plot_image(9)
 ```
 
 
-![png](assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_6_0.png)
+![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_6_0.png?raw=true)
 
 
 
@@ -189,7 +190,7 @@ C.plot_progress()
 ```
 
 
-![png](assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_8_0.png)
+![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_8_0.png?raw=true)
 
 
 
@@ -231,7 +232,7 @@ mnist_test_dataset.plot_image(record)
 ```
 
 
-![png](assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_11_0.png)
+![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_11_0.png?raw=true)
 
 
 
@@ -253,7 +254,7 @@ pd.DataFrame(output.detach().numpy()).plot(kind='bar', legend=False, ylim=(0,1))
 
 
 
-![png](assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_12_1.png)
+![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_12_1.png?raw=true)
 
 
 
