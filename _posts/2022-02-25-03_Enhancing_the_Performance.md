@@ -190,7 +190,7 @@ C.plot_progress()
 ```
 
 
-![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_8_0.png?raw=true)
+![png](../assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_8_0.png)
 
 
 
@@ -232,7 +232,7 @@ mnist_test_dataset.plot_image(record)
 ```
 
 
-![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_11_0.png?raw=true)
+![png](../assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_11_0.png)
 
 
 
@@ -254,7 +254,7 @@ pd.DataFrame(output.detach().numpy()).plot(kind='bar', legend=False, ylim=(0,1))
 
 
 
-![png](https://github.com/mucollabo/mucollabo.github.io/blob/master/assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_12_1.png?raw=true)
+![png](../assets/images/03_Enhancing_the_Performance_files/03_Enhancing_the_Performance_12_1.png)
 
 
 
