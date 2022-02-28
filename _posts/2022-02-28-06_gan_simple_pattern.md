@@ -1,3 +1,8 @@
+---
+classes: wide
+title: "[GAN] Simple Pattern"
+---
+
 ```python
 import torch
 import torch.nn as nn
