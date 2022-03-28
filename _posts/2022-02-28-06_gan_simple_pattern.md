@@ -124,7 +124,7 @@ D.plot_progress()
 ```
 
 
-![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_6_0.png)
+![png](../assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_6_0.png)
 
 
 
@@ -259,7 +259,7 @@ D.plot_progress()
 ```
 
 
-![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_11_0.png)
+![png](../assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_11_0.png)
 
 
 
@@ -268,7 +268,7 @@ G.plot_progress()
 ```
 
 
-![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_12_0.png)
+![png](../assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_12_0.png)
 
 
 
@@ -299,7 +299,7 @@ plt.imshow(np.array(image_list).T, interpolation='none', cmap='Blues')
 
 
 
-![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_14_1.png)
+![png](../assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_14_1.png)
 
 
 
