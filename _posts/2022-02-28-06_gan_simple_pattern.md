@@ -1,7 +1,5 @@
----
-classes: wide
-title: "[GAN] Simple Pattern"
----
+<a href="https://colab.research.google.com/github/mucollabo/firstGAN/blob/main/06_gan_simple_pattern.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 
 ```python
 import torch
@@ -27,7 +25,7 @@ generate_real()
 
 
 
-    tensor([0.9802, 0.0834, 0.9315, 0.1736])
+    tensor([0.9801, 0.0542, 0.9029, 0.1930])
 
 
 
@@ -124,7 +122,7 @@ D.plot_progress()
 ```
 
 
-![png](../assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_5_0.png)
+![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_6_0.png)
 
 
 
@@ -134,8 +132,172 @@ print(D.forward(generate_real()).item())
 print(D.forward(generate_random(4)).item())
 ```
 
-    0.7779009938240051
-    0.05509607121348381
+    0.7629599571228027
+    0.06228242069482803
+
+
+
+```python
+class Generator(nn.Module):
+
+  def __init__(self):
+    super().__init__()
+
+    # 신경망 레이어 정의
+    self.model = nn.Sequential(
+        nn.Linear(1, 3),
+        nn.Sigmoid(),
+        nn.Linear(3, 4),
+        nn.Sigmoid()
+    )
+
+    # SGD 옵티마이저 설정
+    self.optimizer = torch.optim.SGD(self.parameters(), lr=0.01)
+
+    # 진행 측정을 위한 변수 초기화
+    self.counter = 0;
+    self.progress = []
+
+    pass
+
+  def forward(self, inputs):
+    # 모델 실행
+    return self.model(inputs)
+
+  def train(self, D, inputs, targets):
+    # 신경망 출력 계산
+    g_output = self.forward(inputs)
+
+    # 판별기로 전달
+    d_output = D.forward(g_output)
+
+    # 오차 계산
+    loss = D.loss_function(d_output, targets)
+
+    # 카운터를 증가시키고 10회마다 오차 저장
+    self.counter += 1;
+    if (self.counter % 10 == 0):
+      self.progress.append(loss.item())
+      pass
+
+    # 기울기를 초기화하고 역전파 후 가중치 갱신
+    self.optimizer.zero_grad()
+    loss.backward()
+    self.optimizer.step()
+
+    pass
+
+  def plot_progress(self):
+    df = pd.DataFrame(self.progress, columns=['loss'])
+    df.plot(ylim=(0, 1.0), figsize=(16, 8), alpha=0.1, marker='.', grid=True, yticks=(0, 0.25, 0.5))
+    pass
+
+  pass
+
+```
+
+
+```python
+G = Generator()
+G.forward(torch.FloatTensor([0.5]))
+
+```
+
+
+
+
+    tensor([0.5871, 0.6674, 0.5653, 0.3294], grad_fn=<SigmoidBackward0>)
+
+
+
+
+```python
+%%time
+
+# 새로운 판별기 및 생성기 생성
+
+D = Discriminator()
+G = Generator()
+
+image_list = []
+
+# 판별기와 생성기 훈련
+
+for i in range(10000):
+
+  # 1단계: 참에 대해 판별기 훈련
+  D.train(generate_real(), torch.FloatTensor([1.0]))
+
+  # 2단계: 거짓에 대해 판별기 훈련
+  # G의 기울기가 계산되지 않도록 detach() 함수를 이용
+  D.train(G.forward(torch.FloatTensor([0.5])).detach(), torch.FloatTensor([0.0]))
+
+  # 3단계: 생성기 훈련
+  G.train(D, torch.FloatTensor([0.5]), torch.FloatTensor([1.0]))
+
+  # 매 1000회 이미지를 저장
+  if (i % 1000 == 0):
+    image_list.append(G.forward(torch.FloatTensor([0.5])).detach().numpy())
+
+
+  pass
+
+
+```
+
+    counter =  10000
+    counter =  20000
+    CPU times: user 12.3 s, sys: 10.3 ms, total: 12.3 s
+    Wall time: 12.3 s
+
+
+
+```python
+D.plot_progress()
+```
+
+
+![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_11_0.png)
+
+
+
+```python
+G.plot_progress()
+```
+
+
+![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_12_0.png)
+
+
+
+```python
+G.forward(torch.FloatTensor([0.5]))
+```
+
+
+
+
+    tensor([0.9436, 0.0366, 0.9376, 0.0356], grad_fn=<SigmoidBackward0>)
+
+
+
+
+```python
+import numpy as np
+
+plt.figure(figsize = (16, 8))
+plt.imshow(np.array(image_list).T, interpolation='none', cmap='Blues')
+```
+
+
+
+
+    <matplotlib.image.AxesImage at 0x7ff5bae7d090>
+
+
+
+
+![png](/Users/charles/Documents/GitHub/mucollabo.github.io/assets/images/06_gan_simple_pattern_files/06_gan_simple_pattern_14_1.png)
 
 
 
