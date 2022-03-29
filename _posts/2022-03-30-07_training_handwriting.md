@@ -3,6 +3,7 @@ classes: wide
 title: "[GAN] Training Handwriting"
 ---
 
+
 Handwritten Digits - MNIST GAN With Seed Experiments
 ===
 #### Make Your First GAN With PyTorch, 20202
