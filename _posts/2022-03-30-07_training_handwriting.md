@@ -1,4 +1,8 @@
-<a href="https://colab.research.google.com/github/mucollabo/firstGAN/blob/main/07_training_handwriting.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+---
+classes: wide
+title: "[GAN] Training Handwriting"
+---
+
 
 Handwritten Digits - MNIST GAN With Seed Experiments
 ===
