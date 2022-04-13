@@ -3,11 +3,6 @@ classes: wide
 title: "[RMSE] BusRidersPredic"
 ---
 
-```python
-# from google.colab import drive
-# drive.mount('./mount')
-```
-
 
 ```python
 import pandas as pd
