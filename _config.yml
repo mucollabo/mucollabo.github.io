@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "안철현(Charles An)"
   avatar           : "assets/images/myAvatar_Charles.jpg"
-  bio              : # "I am an **amazing** person."
+  bio              : "Memento Mori" # "I am an **amazing** person."
   location         : "Republic of Korea"
   email            : # "mucollabo@gmail.com"
   links:
@@ -220,7 +220,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -287,6 +287,18 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: true   # blog comments
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
