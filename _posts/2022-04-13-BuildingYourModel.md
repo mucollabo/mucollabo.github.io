@@ -1,6 +1,7 @@
 ---
 classes: wide
 title: Building Your Model
+category: AI
 ---
 
 > #### The steps to building and using a model are:
