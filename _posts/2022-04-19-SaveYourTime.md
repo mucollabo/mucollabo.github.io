@@ -129,7 +129,7 @@ min(df['Age'])
 ```
 
 ![png](https://images.unsplash.com/photo-1511466422904-ecdbc68407a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80)
-[//]: # (<img src="https://unsplash.com/photos/ArW7pJRYw7Q">)
+<p>Photo by <a href="https://unsplash.com/@nixcreative"><u>Tyler Nix</u></a> on <a href="https://unsplash.com"><u>Unsplash</u></a></p> 
 
 * Snippet 18: dataframe에서 평균값 찾기
 
