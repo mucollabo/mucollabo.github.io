@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Pandas Creating, Reading and Writing "
 
 excerpt: "The first step in most data analytics projects is reading the data file."

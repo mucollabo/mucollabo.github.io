@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Pandas Summary, Functions and Maps"
 
 excerpt: "Now you are ready to get a deeper understanding of your data."

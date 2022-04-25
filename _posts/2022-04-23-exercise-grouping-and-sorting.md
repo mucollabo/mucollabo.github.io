@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Pandas grouping and Sorting"
 
 excerpt: "In these exercises we'll apply groupwise analysis to our dataset."

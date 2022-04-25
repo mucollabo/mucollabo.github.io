@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Save Your Time"
 
 excerpt: "introduce useful Pandas Snippets"

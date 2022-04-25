@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Pandas Indexing, Selecting and assigning"
 
 excerpt: "In this set of exercises we will work with the Wine Reviews dataset."

@@ -1,4 +1,6 @@
 ---
+classes: wide
+
 title: "Pandas Renaming and Combining"
 
 excerpt: "Run the following cell to load your data and some utility functions."
