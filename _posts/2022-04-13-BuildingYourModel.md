@@ -1,7 +1,17 @@
 ---
 classes: wide
+
 title: Building Your Model
-category: AI
+
+categories:
+- AI
+
+tags:
+- data
+- modeling
+- kaggle
+
+
 ---
 
 > #### The steps to building and using a model are:
