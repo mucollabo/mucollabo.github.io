@@ -136,24 +136,27 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/truly76"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/chulhyunan/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mucollabo"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+    - label: "kaggle"
+      icon: "fab fa-kaggle"
+      url: "https://www.kaggle.com/charles01dev"
+#    - label: "GitLab"
+#      icon: "fab fa-fw fa-gitlab"
+#      url:
+#    - label: "Bitbucket"
+#      icon: "fab fa-fw fa-bitbucket"
+#      url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/chulhyunan/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jazzgt335/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/truly76"
 
 
 # Reading Files
