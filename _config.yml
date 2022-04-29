@@ -70,7 +70,7 @@ algolia:
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
-asset_url                : "assets/"
+
 
 # SEO Related
 google_site_verification :
