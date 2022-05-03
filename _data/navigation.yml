@@ -2,15 +2,15 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
   - title: "kaggle"
     url: /categories/kaggle/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "By Year" # "Sample Posts"
-    url: /year-archive/
+#  - title: "By Year" # "Sample Posts"
+#    url: /year-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
