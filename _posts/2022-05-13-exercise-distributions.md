@@ -1,3 +1,25 @@
+---
+classes: wide
+
+title: "Distributions"
+
+excerpt: "Create histograms and density plots"
+
+categories:
+- kaggle
+
+tags:
+- data-visualization
+- tumor
+- benign
+- malignant
+- cancer
+- distplot
+- kdeplot
+
+---
+
+
 **This notebook is an exercise in the [Data Visualization](https://www.kaggle.com/learn/data-visualization) course.  You can reference the tutorial at [this link](https://www.kaggle.com/alexisbcook/distributions).**
 
 ---
@@ -651,7 +673,7 @@ step_3.a.check()
 
 
     
-![png](exercise-distributions_files/exercise-distributions_20_2.png)
+![png](../assets/images/exercise-distributions_files/exercise-distributions_20_2.png)
     
 
 
@@ -723,7 +745,7 @@ plt.legend()
 
 
     
-![png](exercise-distributions_files/exercise-distributions_26_3.png)
+![png](../assets/images/exercise-distributions_files/exercise-distributions_26_3.png)
     
 
 
