@@ -13,6 +13,8 @@ tags:
 - pandas
 - data
 
+comments: true
+
 ---
 
 
@@ -549,3 +551,7 @@ Continue to **[grouping and sorting](https://www.kaggle.com/residentmario/groupi
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/pandas/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

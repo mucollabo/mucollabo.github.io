@@ -13,6 +13,8 @@ tags:
 - target-leakage
 - train-test contamination
 
+comments: true
+
 ---
 
 
@@ -221,3 +223,7 @@ Again, Congratulations!
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

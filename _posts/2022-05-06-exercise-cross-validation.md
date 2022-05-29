@@ -12,6 +12,8 @@ tags:
 - ml
 - cross-validation
 
+comments: true
+
 ---
 
 **This notebook is an exercise in the [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) course.  You can reference the tutorial at [this link](https://www.kaggle.com/alexisbcook/cross-validation).**
@@ -521,3 +523,7 @@ Continue to learn about **[gradient boosting](https://www.kaggle.com/alexisbcook
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

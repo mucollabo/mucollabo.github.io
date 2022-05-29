@@ -11,6 +11,8 @@ categories:
 tags:
 - data
 
+comments: true
+
 ---
 ![png](https://global-uploads.webflow.com/60ddb7e2e50eaef5bec9595c/6167204ed759bf9693f7ee1b_data-pipelines2.png)
 <p align="center">Photo by <a href="https://www.acceldata.io/blog/why-manage-data-pipelines-not-data-warehouses">acceldata</a></p>
@@ -26,3 +28,7 @@ tags:
 > 
 
 출처: [kaggle](https://www.kaggle.com/code/alexisbcook/pipelines)
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

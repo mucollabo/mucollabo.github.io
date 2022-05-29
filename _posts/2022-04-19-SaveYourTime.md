@@ -13,6 +13,8 @@ tags:
   - pandas
   - snippet
 
+comments: true
+
 last_modified_at: 2022-04-14T17:06:00-05:00
 ---
 
@@ -175,3 +177,6 @@ this content is from -Alain Saamego- [meduim.com](https://medium.com/@alains/23-
 
 if you want to find that more detail, visit above link.
 
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

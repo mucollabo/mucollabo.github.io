@@ -12,6 +12,8 @@ tags:
 - python
 - data
 
+comments: true
+
 ---
 
 **This notebook is an exercise in the [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) course.  You can reference the tutorial at [this link](https://www.kaggle.com/alexisbcook/introduction).**
@@ -330,3 +332,7 @@ Learn how to improve your competition results by incorporating columns with **[m
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

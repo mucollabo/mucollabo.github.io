@@ -13,6 +13,8 @@ tags:
 - visualization
 - label
 
+comments: true
+
 ---
 
 
@@ -379,3 +381,7 @@ Move on to learn about **[bar charts and heatmaps](https://www.kaggle.com/alexis
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/data-visualization/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

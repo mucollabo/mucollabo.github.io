@@ -1,6 +1,9 @@
 ---
 classes: wide
 title: "[GAN] Simple Pattern"
+
+comments: true
+
 ---
 
 ```python
@@ -306,3 +309,7 @@ plt.imshow(np.array(image_list).T, interpolation='none', cmap='Blues')
 ```python
 
 ```
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

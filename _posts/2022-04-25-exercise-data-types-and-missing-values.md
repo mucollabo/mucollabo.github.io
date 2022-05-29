@@ -13,6 +13,8 @@ tags:
 - pandas
 - data
 
+comments: true
+
 ---
 
 
@@ -441,3 +443,7 @@ Move on to **[renaming and combining](https://www.kaggle.com/residentmario/renam
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/pandas/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

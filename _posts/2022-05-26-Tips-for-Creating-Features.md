@@ -12,6 +12,8 @@ tags:
 - feature
 - data
 
+comments: true
+
 ---
 
 > **Tips on Discovering New Features**
@@ -40,3 +42,8 @@ tags:
 
 
 This content is from ['Ryan Holbrook'](https://www.kaggle.com/code/ryanholbrook/creating-features) of Kaggle's instructor.
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}
+

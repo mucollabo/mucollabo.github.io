@@ -13,6 +13,8 @@ tags:
 - pandas
 - data
 
+comments: true
+
 ---
 
 **This notebook is an exercise in the [Pandas](https://www.kaggle.com/learn/pandas) course.  You can reference the tutorial at [this link](https://www.kaggle.com/residentmario/creating-reading-and-writing).**
@@ -462,3 +464,7 @@ Move on to learn about **[indexing, selecting and assigning](https://www.kaggle.
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/pandas/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

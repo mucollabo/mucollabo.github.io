@@ -11,6 +11,7 @@ tags:
 - modeling
 - kaggle
 
+comments: true
 
 ---
 
@@ -21,3 +22,7 @@ tags:
 > * **Evaluate**: Determine how accurate the model's predictions are.
 
 [Kaggle.com](https://www.kaggle.com/code/dansbecker/your-first-machine-learning-model "Building Your Model")
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

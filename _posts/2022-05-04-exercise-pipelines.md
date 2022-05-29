@@ -13,6 +13,8 @@ tags:
 - pipeline
 - strategy
 
+comments: true
+
 ---
 
 
@@ -605,3 +607,7 @@ Move on to learn about [**cross-validation**](https://www.kaggle.com/alexisbcook
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

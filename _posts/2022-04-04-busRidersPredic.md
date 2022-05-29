@@ -1,6 +1,9 @@
 ---
 classes: wide
 title: "[RMSE] BusRidersPredic"
+
+comments: true
+
 ---
 
 
@@ -1091,5 +1094,7 @@ plt.show()
 
     
 ![png](../assets/images/busRidersPredic_files/busRidersPredic_25_0.png)
-    
 
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

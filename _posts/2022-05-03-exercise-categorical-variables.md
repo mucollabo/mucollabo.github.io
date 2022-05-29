@@ -13,6 +13,8 @@ tags:
 - one_hot_encoding
 - data
 
+comments: true
+
 ---
 
 **This notebook is an exercise in the [Intermediate Machine Learning](https://www.kaggle.com/learn/intermediate-machine-learning) course.  You can reference the tutorial at [this link](https://www.kaggle.com/alexisbcook/categorical-variables).**
@@ -830,3 +832,7 @@ With missing value handling and categorical encoding, your modeling process is g
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

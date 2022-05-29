@@ -13,6 +13,8 @@ tags:
 - pandas
 - data
 
+comments: true
+
 ---
 
 **This notebook is an exercise in the [Pandas](https://www.kaggle.com/learn/pandas) course.  You can reference the tutorial at [this link](https://www.kaggle.com/residentmario/grouping-and-sorting).**
@@ -1173,3 +1175,7 @@ Move on to the [**data types and missing data**](https://www.kaggle.com/resident
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/pandas/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

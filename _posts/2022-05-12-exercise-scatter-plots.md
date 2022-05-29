@@ -15,6 +15,8 @@ tags:
 - swarmplot
 - visualization
 
+comments: true
+
 ---
 
 
@@ -624,3 +626,7 @@ Explore **[histograms and density plots](https://www.kaggle.com/alexisbcook/dist
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/data-visualization/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

@@ -1,6 +1,9 @@
 ---
 classes: wide
 title: "[GAN] Training Handwriting"
+
+comments: true
+
 ---
 
 
@@ -403,3 +406,7 @@ for i in range(2):
 ```python
 
 ```
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

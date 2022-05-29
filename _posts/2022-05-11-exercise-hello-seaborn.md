@@ -13,6 +13,8 @@ tags:
 - seaborn
 - lineplot
 
+comments: true
+
 ---
 
 
@@ -383,3 +385,7 @@ Move on to learn to create your own **[line charts](https://www.kaggle.com/alexi
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/data-visualization/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

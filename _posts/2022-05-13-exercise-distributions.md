@@ -13,6 +13,8 @@ tags:
 - distplot
 - kdeplot
 
+comments: true
+
 ---
 
 
@@ -785,3 +787,7 @@ Review all that you've learned and explore how to further customize your plots i
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/data-visualization/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

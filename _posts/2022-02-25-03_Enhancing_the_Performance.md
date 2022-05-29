@@ -1,6 +1,9 @@
 ---
 classes: wide
 title: "[GAN] Enhancing the Performance"
+
+comments: true
+
 ---
 
 ```python
@@ -261,3 +264,7 @@ pd.DataFrame(output.detach().numpy()).plot(kind='bar', legend=False, ylim=(0,1))
 ```python
 
 ```
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}

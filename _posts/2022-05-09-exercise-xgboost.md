@@ -12,6 +12,8 @@ tags:
 - xgboost
 - optimize
 
+comments: true
+
 ---
 
 
@@ -313,3 +315,7 @@ Continue to learn about **[data leakage](https://www.kaggle.com/alexisbcook/data
 
 
 *Have questions or comments? Visit the [course discussion forum](https://www.kaggle.com/learn/intermediate-machine-learning/discussion) to chat with other learners.*
+
+{% if page.comments != false %}
+{% include disqus.html %}
+{% endif %}
