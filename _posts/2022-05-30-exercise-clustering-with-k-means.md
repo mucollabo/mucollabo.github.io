@@ -180,7 +180,7 @@ sns.relplot(
 
 
     
-![png](assets/images/exercise-clustering-with-k-means_files/exercise-clustering-with-k-means_9_0.png)
+![png](/assets/images/exercise-clustering-with-k-means_files/exercise-clustering-with-k-means_9_0.png)
     
 
 

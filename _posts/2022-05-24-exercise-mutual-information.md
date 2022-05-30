@@ -94,7 +94,7 @@ sns.relplot(
 
 
     
-![png](assets/images/exercise-mutual-information_files/exercise-mutual-information_4_0.png)
+![png](/assets/images/exercise-mutual-information_files/exercise-mutual-information_4_0.png)
     
 
 
@@ -191,7 +191,7 @@ plot_mi_scores(mi_scores.tail(20))  # uncomment to see bottom 20
 
 
     
-![png](assets/images/exercise-mutual-information_files/exercise-mutual-information_10_1.png)
+![png](/assets/images/exercise-mutual-information_files/exercise-mutual-information_10_1.png)
     
 
 
@@ -244,7 +244,7 @@ sns.catplot(x="BldgType", y="SalePrice", data=df, kind="boxen");
 
 
     
-![png](assets/images/exercise-mutual-information_files/exercise-mutual-information_14_0.png)
+![png](/assets/images/exercise-mutual-information_files/exercise-mutual-information_14_0.png)
     
 
 
@@ -270,7 +270,7 @@ sns.lmplot(
 
 
     
-![png](assets/images/exercise-mutual-information_files/exercise-mutual-information_16_0.png)
+![png](/assets/images/exercise-mutual-information_files/exercise-mutual-information_16_0.png)
     
 
 
@@ -286,7 +286,7 @@ sns.lmplot(
 
 
     
-![png](assets/images/exercise-mutual-information_files/exercise-mutual-information_17_0.png)
+![png](/assets/images/exercise-mutual-information_files/exercise-mutual-information_17_0.png)
     
 
 
