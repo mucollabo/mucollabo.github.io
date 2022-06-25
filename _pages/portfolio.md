@@ -1,9 +1,12 @@
 ---
-permalink: /about/
-title: "About Me"
-last_modified_at: 2022-04-14T12:04:24-04:00
+permalink: /portfolio/
+
+title: "portfolio"
+
 layout: single
+
 ---
+
 
 # 서비스기획자 김티드 포트폴리오
 
