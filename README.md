@@ -1,1 +1,1 @@
-# ![MuCollabo Github Blog](https://mucollabo.github.io/)
+# [MuCollabo Github Blog](https://mucollabo.github.io/)
