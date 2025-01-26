@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true  # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -68,7 +68,7 @@ algolia:
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  search_engine_id       : 4344f1252d6bc4056  # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
   tag_manager            :
     container_id         : GTM-MHXCK2W
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "안철현(Charles An)"
   avatar           : "assets/images/myPf_s.jpg"
-  bio              : "Memento Mori" # "I am an **amazing** person."
+  bio              : "Change the World" # "I am an **amazing** person."
   location         : "Republic of Korea"
   email            : # "mucollabo@gmail.com"
   links:
