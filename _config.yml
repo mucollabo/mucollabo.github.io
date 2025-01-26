@@ -69,7 +69,7 @@ algolia:
   powered_by             : # true (default), false
 google:
   search_engine_id       : 4344f1252d6bc4056  # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  instant_search         : true  # false (default), true
   tag_manager            :
     container_id         : GTM-MHXCK2W
 
