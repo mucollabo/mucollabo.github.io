@@ -107,9 +107,9 @@ analytics:
 author:
   name             : "안철현(Charles An)"
   avatar           : "assets/images/myPf_s.jpg"
-  bio              : "Change the World" # "I am an **amazing** person."
+  bio              : "Carpe Diem" # "I am an **amazing** person."
   location         : "Republic of Korea"
-  email            : # "mucollabo@gmail.com"
+  email            : "charles01dev@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

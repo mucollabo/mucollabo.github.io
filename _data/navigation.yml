@@ -4,6 +4,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 #  - title: "About"
 #    url: /about/
+  - title: "DIY"
+    url: /categories/DIY/
   - title: "kaggle"
     url: /categories/kaggle/
   - title: "Categories"
