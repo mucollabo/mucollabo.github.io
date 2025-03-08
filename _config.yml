@@ -22,7 +22,7 @@ subtitle                 : # "Music + Collaboration"# site tagline that appears 
 name                     : "MuCollabo"
 description              : # "An amazing website."
 url                      : "https://mucollabo.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "assets/images/github_teaser_image_01.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
