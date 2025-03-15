@@ -312,3 +312,6 @@ defaults:
       comments: true # false
       share: true
       related: false
+
+# navigation
+nav_dropdown: true
