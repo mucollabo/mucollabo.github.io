@@ -20,8 +20,6 @@ tags:
   - OpenAPI
   - Redoc
 
-layout: post
-
 comments: true
 ---
 
