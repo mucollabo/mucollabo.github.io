@@ -1,15 +1,11 @@
 ---
 classes: wide
-
-title: \"인간의 뇌를 모방한 자율 지식 엔진: Obsidian DMN 파이프라인 구축기\"
-
-excerpt: \"멍하니 있을 때 떠오르는 유레카의 순간을 AI로 구현할 수 있을까? 뇌과학의 DMN 메커니즘을 Obsidian 지식 베이스에 이식한 여정을 공유합니다.\"
-
+title: "인간의 뇌를 모방한 자율 지식 엔진: Obsidian DMN 파이프라인 구축기"
+excerpt: "멍하니 있을 때 떠오르는 유레카의 순간을 AI로 구현할 수 있을까? 뇌과학의 DMN 메커니즘을 Obsidian 지식 베이스에 이식한 여정을 공유합니다."
 categories:
   - AI
   - Neuroscience
   - Obsidian
-
 tags:
   - DMN
   - PKM
@@ -18,7 +14,6 @@ tags:
   - SleepGate
   - MemoryConsolidation
   - SecondBrain
-
 comments: true
 ---
 
